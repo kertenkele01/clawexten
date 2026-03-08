@@ -1,16 +1,15 @@
 {
-  "name": "tjk-relay-server",
-  "version": "1.0.0",
-  "description": "TJK Extension WebSocket Relay Server",
+  "name": "corby-bridge-server",
+  "version": "2.0.0",
+  "description": "Secure WebSocket relay for browser automation",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.16.0"
+    "ws": "^8.14.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.0.0"
   }
 }
